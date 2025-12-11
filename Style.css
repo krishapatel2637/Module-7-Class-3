@@ -1,16 +1,27 @@
 #showmedia{
     background-color:rgb(42, 42, 42)
 }
-.medialink{
-    padding:1rem;
-    margin-left:1rem;
-    border:2px solid yellow;
-    border-radius:0.5rem;
+.heading{
+    font-weight:700;
+    font-size:2rem;
 }
-#icon{
-    width:3rem;
-    height:3rem;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+.medialink{
+    padding:15px;
+    border:2px solid yellow;
+    border-radius:6px;
+    text-decoration:none;
+    display:block;
+    transition:0.3s ease;
+    margin-bottom:20px;
+}
+.medialink:hover{
+    background-color:black;
+    border-color:grey;
+    text-decoration:none;
+}
+.medialink.bg-warning:hover{
+    background-color:yellow;
+}
+.icon{
+   color:beige;
 }
